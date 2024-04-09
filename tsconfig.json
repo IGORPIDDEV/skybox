@@ -1,0 +1,28 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "types": ["@nuxt/types", "@nuxt/typescript-build", "@types/node"],
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+    "verbatimModuleSyntax": false,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "env.d.ts",
+    ".nuxt/nuxt.d.ts",
+    "**/*"
+  ]
+}
