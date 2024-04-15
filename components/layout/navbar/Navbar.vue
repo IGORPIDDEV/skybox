@@ -7,9 +7,13 @@
       </h1>
     </div>
     <nav>
-      <li v-for="(menuItemElement, menuItemIndex) in menuitems" :key="menuItemIndex">
-        <a :href="menuItemElement.title">{{ menuItemElement.link }}</a>
-      </li>
+      <ul class="flex gap-[20px]">
+        <li v-for="(menuItemElement, menuItemIndex) in menuitems" :key="menuItemIndex" class="hover:text-primary-dark">
+          <nuxt-link :to="menuItemElement.link">
+            {{ menuItemElement.title }}
+          </nuxt-link>
+        </li>
+      </ul>
     </nav>
     <div class="flex items-center gap-5">
       <div>Sign in</div>
@@ -28,7 +32,15 @@ import { menuItem } from '~/types/menuItem'
 const menuitems = ref<menuItem[]>([
   {
     title: 'About',
-    link: '/about'
+    link: '#about'
+  },
+  {
+    title: 'Features',
+    link: '#feature'
+  },
+  {
+    title: 'Price',
+    link: '#price'
   }
 ])
 </script>

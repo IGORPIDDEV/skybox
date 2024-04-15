@@ -9,6 +9,8 @@ module.exports = {
         'blue-dark': '#3a0ca3',
         'blue-light': '#4361ee',
         cyan: '#4cc9f0',
+        primary: '#7346ff',
+        'primary-dark': '#540ff2',
         'b-red': {
           100: '#fee5f2',
           200: '#fecce6',
