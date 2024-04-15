@@ -1,0 +1,12 @@
+.btn {
+  @apply font-bold py-4 px-4 rounded-md;
+}
+.btn-primary {
+  @apply text-white bg-b-blue-dark-500 hover:bg-b-blue-dark-700;
+}
+.btn-primary__outline {
+  @apply border-solid border-2 border-b-blue-dark-700 text-b-blue-dark-700 hover:text-white hover:bg-b-blue-dark-700;
+}
+.btn-primary__gradient {
+  @apply bg-gradient-to-r from-b-purple-500 to-b-blue-dark-700 hover:bg-gradient-to-br text-white;
+}

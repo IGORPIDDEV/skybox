@@ -9,10 +9,10 @@
         Enjoy Peace of Mind with Our Secure and Reliable Cloud Storage Solutions
       </h2>
       <div class="flex gap-4 justify-center">
-        <nuxt-link to="/register" class="bg-gradient-to-r from-b-purple-500 to-b-blue-dark-700 hover:bg-gradient-to-br text-white font-bold py-4 px-4 rounded-md">
+        <nuxt-link class="btn btn-primary__gradient">
           Create free account
         </nuxt-link>
-        <nuxt-link to="/register" class="border-solid border-2 border-b-blue-dark-700 text-b-blue-dark-700 hover:text-white hover:bg-b-blue-dark-700 font-bold py-4 px-4 rounded-md">
+        <nuxt-link class="btn btn-primary__outline">
           Show subscribe plans
         </nuxt-link>
       </div>

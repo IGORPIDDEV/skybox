@@ -9,8 +9,8 @@
     <div class="flex items-center gap-5">
       <div>Log in</div>
       <div>
-        <button class="border-solid border-2 border-b-blue-dark-500 text-b-blue-dark-500 hover:text-white hover:bg-b-blue-dark-500 py-3 px-3 rounded-md">
-          For business
+        <button class="btn btn-primary__outline">
+          Sign in
         </button>
       </div>
     </div>

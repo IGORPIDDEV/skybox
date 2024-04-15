@@ -11,6 +11,9 @@ const config: NuxtConfig = {
     '@nuxtjs/tailwindcss',
     'nuxt-headlessui'
   ],
+  css: [
+    '@/assets/css/main.scss'
+  ],
   buildModules: ['@nuxt/typescript-build'],
   i18n: {
     locales: [{
