@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LayoutNavbar />
+    <LayoutHeader />
     <slot />
   </div>
 </template>

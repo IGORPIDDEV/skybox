@@ -1,5 +1,5 @@
 .btn {
-  @apply font-bold py-4 px-4 rounded-md;
+  @apply font-bold py-4 px-4 rounded-md cursor-pointer;
 }
 .btn-primary {
   @apply text-white bg-b-blue-dark-500 hover:bg-b-blue-dark-700;
@@ -9,4 +9,7 @@
 }
 .btn-primary__gradient {
   @apply bg-gradient-to-r from-b-purple-500 to-b-blue-dark-700 hover:bg-gradient-to-br text-white;
+}
+.btn-primary__dense {
+  @apply text-b-blue-dark-700 hover:bg-b-blue-dark-700 hover:text-white;
 }
