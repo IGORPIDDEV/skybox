@@ -8,7 +8,8 @@
   @apply border-solid border-2 border-b-blue-dark-700 text-b-blue-dark-700 hover:text-white hover:bg-b-blue-dark-700;
 }
 .btn-primary__gradient {
-  @apply bg-gradient-to-r from-b-purple-500 to-b-blue-dark-700 hover:bg-gradient-to-br text-white;
+  @apply hover:bg-gradient-to-br text-white;
+  @extend .gradient-primary;
 }
 .btn-primary__dense {
   @apply text-b-blue-dark-700 hover:bg-b-blue-dark-700 hover:text-white;

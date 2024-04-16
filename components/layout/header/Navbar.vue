@@ -4,7 +4,7 @@
       <li
         v-for="(menuItemElement, menuItemIndex) in menuitems"
         :key="menuItemIndex"
-        class="hover:text-primary-dark"
+        class="text-gray-500 hover:text-gray-800"
       >
         <nuxt-link :to="menuItemElement.link">
           {{ menuItemElement.title }}

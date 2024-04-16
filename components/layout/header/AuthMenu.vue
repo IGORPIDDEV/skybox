@@ -3,7 +3,7 @@
     <div>Log in</div>
     <div>
       <button class="btn btn-primary__outline">
-        Sign up
+        Try for free
       </button>
     </div>
   </div>

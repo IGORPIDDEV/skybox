@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @import 'components/buttons';
+@import 'layout';
+@import 'colors';
 
 @layer base {
   body {
