@@ -1,16 +1,16 @@
 <template>
   <div class="relative container m-auto text-center pt-[100px] pb-[50px]">
-    <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight text-gray-900 lg:leading-tight">
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[40%] w-[800px] h-[800px] bg-b-blue-dark-100 z-10 rounded-full blur-xl" />
+    <h1 class="relative text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight text-gray-900 lg:leading-tight z-20">
       Unlock the power of our cloud file storage: Key benefits
     </h1>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10 mt-[60px]">
       <div
         v-for="(benefit, benefitIndex) in benefits"
         :key="benefitIndex"
-        class="relative z-20 overflow-hidden p-8"
+        class="relative z-20 overflow-hidden p-8 bg-white"
       >
         <Icon :name="benefit.icon" size="60" class="text-b-purple-500" />
-        <!-- gradient-primary bg-clip-text text-transparent  -->
         <h1 class="text-gray-800 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight pt-4 pb-4">
           {{ benefit.title }}
         </h1>
