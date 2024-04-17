@@ -1,4 +1,4 @@
-export interface Feature {
+export interface Benefit {
     title: string;
     icon: string;
     description: string;

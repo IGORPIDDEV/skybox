@@ -1,7 +1,7 @@
 <template>
   <div>
     <LayoutHero />
-    <LayoutFeatures />
+    <LayoutBenefits />
     <!-- <h1 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight text-gray-900 lg:leading-tight">
       Benefits of our cloud file storage
     </h1>
