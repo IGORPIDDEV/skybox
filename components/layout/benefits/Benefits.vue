@@ -49,5 +49,6 @@ const benefits = ref<Benefit[]>([
     title: 'Support',
     icon: 'ic:sharp-question-answer',
     description: 'Were always here to help you. Our team of experts is ready to answer your questions and provide support to make your experience using our cloud file storage as comfortable as possible.'
-  }])
+  }
+])
 </script>
