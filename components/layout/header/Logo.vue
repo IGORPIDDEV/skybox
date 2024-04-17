@@ -1,9 +1,9 @@
 <template>
   <div class="flex items-center gap-[5px]">
     <Icon :name="logo.icon.name" :size="logo.icon.size" />
-    <h1 class="uppercase font-bold text-xl">
+    <nuxt-link class="uppercase font-bold text-xl" to="/">
       {{ logo.text }}
-    </h1>
+    </nuxt-link>
   </div>
 </template>
 <script setup lang="ts">

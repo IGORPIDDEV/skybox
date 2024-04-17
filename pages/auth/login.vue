@@ -1,3 +1,5 @@
 <template>
-  <div>login</div>
+  <div class="w-full full-height gradient-background">
+    login
+  </div>
 </template>

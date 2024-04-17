@@ -1,3 +1,5 @@
 <template>
-  <div>register</div>
+  <div class="w-full full-height gradient-background">
+    register
+  </div>
 </template>

@@ -1,3 +1,6 @@
 .gradient-primary {
-    @apply bg-gradient-to-r from-b-purple-500 to-b-blue-dark-700
+    @apply bg-gradient-to-r from-b-purple-500 to-b-blue-dark-700;
+}
+.gradient-background {
+    @apply bg-gradient-to-r from-b-blue-light-100 to-b-blue-dark-100;
 }

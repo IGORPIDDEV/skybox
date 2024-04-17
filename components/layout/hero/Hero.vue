@@ -1,5 +1,5 @@
 <template>
-  <section class="flex relative h-[calc(100dvh-90px)] bg-gradient-to-r from-b-purple-100 to-b-blue-light-100 overflow-hidden items-center justify-center">
+  <section class="flex relative full-height bg-gradient-to-r from-b-purple-100 to-b-blue-light-100 overflow-hidden items-center justify-center">
     <LayoutHeroShapes />
     <div class="flex flex-col justify-center container max-w-screen-lg m-auto z-20 text-center">
       <h1 class="mb-6 text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-gray-900 lg:leading-tight">
