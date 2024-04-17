@@ -1,10 +1,10 @@
 <template>
   <div class="relative container m-auto text-center pt-[100px] pb-[50px]">
-    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[40%] w-[800px] h-[800px] bg-b-blue-dark-100 z-10 rounded-full blur-xl" />
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[35%] w-[800px] h-[800px] bg-b-blue-dark-100 z-10 rounded-full blur-xl" />
     <h1 class="relative text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight text-gray-900 lg:leading-tight z-20">
-      Unlock the power of our cloud file storage: Key benefits
+      Unlock the power of our cloud file storage
     </h1>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10 mt-[60px]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10 mt-[90px]">
       <div
         v-for="(benefit, benefitIndex) in benefits"
         :key="benefitIndex"
