@@ -14,9 +14,9 @@
   </nav>
 </template>
 <script setup lang="ts">
-import { menuItem } from '~/types/menuItem'
+import { Menu } from '~/types/menu'
 
-const menuitems = ref<menuItem[]>([
+const menuitems = ref<Menu[]>([
   {
     title: 'About',
     link: '#about'
