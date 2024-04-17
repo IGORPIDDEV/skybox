@@ -19,19 +19,19 @@ import { Menu } from '~/types/menu'
 const menuitems = ref<Menu[]>([
   {
     title: 'About',
-    link: '#about'
+    link: '/#about'
   },
   {
     title: 'Features',
-    link: '#feature'
+    link: '/#features'
   },
   {
     title: 'Price',
-    link: '#price'
+    link: '/#price'
   },
   {
     title: 'Contacts',
-    link: '#contacts'
+    link: '/#contacts'
   }
 ])
 </script>

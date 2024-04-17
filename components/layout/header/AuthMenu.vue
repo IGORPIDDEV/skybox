@@ -1,13 +1,13 @@
 <template>
   <div class="flex items-center gap-5">
     <Icon class="hover:text-primary-dark cursor-pointer" name="material-symbols:globe" size="30" />
-    <div class="hover:text-primary-dark cursor-pointer">
+    <nuxt-link class="hover:text-primary-dark cursor-pointer" to="/auth/login">
       Log in
-    </div>
+    </nuxt-link>
     <div>
-      <button class="btn btn-primary__outline">
+      <nuxt-link class="block btn btn-primary__outline" to="/auth/register">
         Try for free
-      </button>
+      </nuxt-link>
     </div>
   </div>
 </template>
